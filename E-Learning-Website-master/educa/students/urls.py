@@ -1,7 +1,7 @@
 from django.urls import path
 from . import views
 
-
+#render object data
 
 urlpatterns = [
     path('register/',
