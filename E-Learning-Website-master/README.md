@@ -1,7 +1,7 @@
 # E-Learning-System
-This is a project for CSE327. We are building a e-learning web app where educators can upload their content and learners can learn.
+Project này cho môn nhập môn công nghệ phần mềm. Web app này cjo phép upload nội dung khóa học và học online.
 
-The project will be built with django as backend framework and bootstrap, react as frontend.
+Project này dùng django làm backend framework, dùng bootstrap và react làm frontend.
 
 ### To collaborate
 * Fork the project
