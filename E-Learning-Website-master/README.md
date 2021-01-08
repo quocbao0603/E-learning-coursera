@@ -1,5 +1,5 @@
 # E-Learning-System
-Project này cho môn nhập môn công nghệ phần mềm. Web app này cjo phép upload nội dung khóa học và học online.
+Project này cho môn nhập môn công nghệ phần mềm. Web app này cho phép upload nội dung khóa học và học online.
 
 Project này dùng django làm backend framework, dùng bootstrap và react làm frontend.
 
