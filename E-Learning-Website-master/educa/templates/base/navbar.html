@@ -10,7 +10,7 @@
 
 <div  class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
   <div class="container">
-    <a href="{{ home_url }}" class=" navbar-brand">Educa</a>
+    <a href="{{ home_url }}" class=" navbar-brand">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse"
 data-target="#navbarCollapse" aria-controls="navbarCollapse"
 aria-expanded="false" aria-label="Toggle navigation">
@@ -23,10 +23,6 @@ aria-expanded="false" aria-label="Toggle navigation">
        <li class="nav-item {% if request.path == course_list %}active{% endif %}">
          <a class="nav-link" href="{{ course_list }}">Courses <span class="sr-only">(current)</span></a>
        </li>
-       <li class="nav-item {% if request.path == subject_url %}active{% endif %}">
-         <a class="nav-link" href="{{ subject_url }}">Subject</a>
-       </li>
-
 
      </ul>
 

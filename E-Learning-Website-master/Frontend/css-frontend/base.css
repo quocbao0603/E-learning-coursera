@@ -21,6 +21,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight:300;
 }
 
+h7{
+    font-family:'Roboto', sans-serif;
+    font-weight:300;
+    font-size: 126px;
+}
+
 h1 {
     background:#efefef;
     width:100%;

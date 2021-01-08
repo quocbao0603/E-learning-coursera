@@ -5,11 +5,81 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>{% block title %}Educa{% endblock %}</title>
-<link href="{% static "css/slider.css" %}" rel="stylesheet">
+  <title>{% block title %}Coursera{% endblock %}</title>
+  <link href="{% static "css/slider.css" %}" rel="stylesheet">
   <link href="{% static "css/base.css" %}" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		html {
+			box-sizing: border-box;
+		}
+
+		*,
+		*:before,
+		*:after {
+			box-sizing: inherit;
+		}
+
+		.columnn {
+			float: left;
+			width: 20%;
+			margin-bottom: 16px;
+			padding: 0 8px;
+    }
+    
+    .columnn2{
+      float: left;
+			width: 33%;
+			margin-bottom: 16px;
+			padding: 0 8px;
+    }
+
+		@media screen and (max-width: 650px) {
+			.columnn {
+				width: 100%;
+				display: block;
+			}
+		}
+
+		.cardd {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			text-align: center;
+
+		}
+
+		.containerr {
+			padding: 0 16px;
+		}
+
+		.containerr::after,
+		.roww::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		.titlee {
+			color: grey;
+		}
+
+		.buttonn {
+			border: none;
+			outline: 0;
+			display: inline-block;
+			padding: 8px;
+			color: white;
+			background-color: #000;
+			text-align: center;
+			cursor: pointer;
+			width: 100%;
+		}
+
+		.buttonn:hover {
+			background-color: #555;
+		}
+	</style>
 </head>
 <body>
 
